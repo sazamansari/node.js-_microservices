@@ -9,7 +9,7 @@
     "server": "nodemon server",
     "dev": "nodemon  --exec babel-node server.js "
   },
-  "author": "shadab",
+  "author": "Shadab Azam Ansari",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
