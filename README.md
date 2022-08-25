@@ -53,6 +53,52 @@ Any additional information goes here
 | :-------- | :------- | :-------------------------------- |
 | `id`      | `string` | **Required**. Id of item to fetch |
 
+## Mongooose Connect 
+
+config/db.js 
+
+```jsx
+import mongoose from "mongoose";
+
+const connectDB = async () => {
+  let uri = process.env.MONGO_URI;
+
+  try {
+    await mongoose
+      .connect(uri, {
+        useNewUrlParser: true,
+        useUnifiedTopology: true,
+        useCreateIndex: true,
+      })
+      .catch((error) => {
+        console.log("connection in error:::", error);
+      });
+
+        console.log("mongo DB connected");
+
+
+      mongoose.set('debug', function(collectionName, method, query, doc, options) {
+
+        console.log(collectionName + '.' + method, JSON.stringify(query), doc)
+    
+        // log.info({
+        //     dbQuery: set
+        // });
+    });
+
+  } catch (e) {
+    console.error(e, "error");
+  } finally {
+    // await client.close();
+  }
+};
+
+export default connectDB;
+/>
+
+#### Get all items
+
+
 #### add(num1, num2)
 
 Takes two numbers and returns the sum.
