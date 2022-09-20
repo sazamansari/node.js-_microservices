@@ -23,7 +23,7 @@ Any additional information goes here
 
 ## Authors
 
-- [@Md Shadab Azam Ansari](https://shadab-azam-ansari.vercel.app/)
+- [@Md Shadab Azam Ansari](https://md-shadab-azam-ansari.vercel.app/)
 
 
 
