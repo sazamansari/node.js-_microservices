@@ -3,7 +3,7 @@
 
 Express.js is a framework of Node.js  for building efficient, scalable Node.js server-side applications. It uses modern JavaScript, is built with JavaScript (preserves compatibility with pure JavaScript) and combines elements of OOP (Object Oriented Programming), FP (Functional Programming), and FRP (Functional Reactive Programming).
 
-Under the hood, Nest makes use of Express, but also, provides compatibility with a wide range of other libraries, like e.g. Moongoose, allowing for easy use of the myriad third-party plugins which are available.
+Under the hood, Node.js makes use of Express, but also, provides compatibility with a wide range of other libraries, like e.g. Moongoose, allowing for easy use of the myriad third-party plugins which are available.
 
 In recent years, thanks to Node.js, JavaScript has become the “lingua franca” of the web for both front and backend applications, giving rise to awesome projects like Angular, React and Vue which improve developer productivity and enable the construction of fast, testable, extensible frontend applications. However, on the server-side, while there are a lot of superb libraries, helpers and tools for Node, none of them effectively solve the main problem - the architecture.
 
