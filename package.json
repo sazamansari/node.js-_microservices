@@ -1,6 +1,6 @@
 {
   "name": "user-auth-microservice",
-  "version": "1.1.0",
+  "version": "1.4.0",
   "description": "User Authentication Microservice",
   "main": "server.js",
   "scripts": {
@@ -9,7 +9,7 @@
     "server": "nodemon server",
     "dev": "nodemon  --exec babel-node server.js "
   },
-  "author": "Shadab Azam Ansari",
+  "author": "Md Shadab Azam Ansari",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
