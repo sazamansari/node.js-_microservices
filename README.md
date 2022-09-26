@@ -135,7 +135,7 @@ Please adhere to this project's `code of conduct`.
 
 ## Tech Stack
 
-**Server:** Node.js, Express.js Auth, jwToken
+**Server:** Node.js, Express.js Auth, JwToken
 ### Examples
 ```jsx
 import CONSTANTS from '../constants/index.js';
