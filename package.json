@@ -1,6 +1,6 @@
 {
   "name": "user-auth-microservice",
-  "version": "1.5.0",
+  "version": "1.8.0",
   "description": "User Authentication Microservice",
   "main": "server.js",
   "scripts": {
@@ -9,41 +9,37 @@
     "server": "nodemon server",
     "dev": "nodemon  --exec babel-node server.js "
   },
-  "author": "Md Shadab Azam Ansari",
+  "author": "Shadab Azam Ansari",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "compression": "^1.7.4",
-    "config": "^3.3.1",
+    "config": "^3.3.8",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
-    "express": "^4.17.1",
-    "express-validator": "^6.4.0",
-    "generate-password": "^1.5.1",
-    "gravatar": "^1.8.0",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.2",
+    "generate-password": "^1.7.0",
+    "gravatar": "^1.8.2",
     "jsonwebtoken": "^8.5.1",
-    "moment": "^2.24.0",
-    "mongoose": "^5.9.6",
+    "moment": "^2.29.4",
+    "mongoose": "^5.13.15",
     "morgan": "^1.10.0",
     "otp-generator": "^4.0.0",
     "request": "^2.88.2",
     "strategy": "^1.1.1",
-    "twilio": "^3.73.1",
+    "twilio": "^3.82.1",
     "uuid": "^7.0.3",
-    "winston": "^3.3.3"
+    "winston": "^3.8.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.13.8",
-    "@babel/node": "^7.13.0",
-    "@babel/preset-env": "^7.13.8",
+    "@babel/core": "^7.19.1",
+    "@babel/node": "^7.19.1",
+    "@babel/preset-env": "^7.19.1",
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.23.4",
-    "nodemon": "^2.0.2"
-  },
-  "publishConfig": {
-  "registry":"https://npm.pkg.github.com"
-},
+    "eslint-plugin-import": "^2.26.0",
+    "nodemon": "^2.0.20"
+  }
 }
 
-}
