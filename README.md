@@ -1,4 +1,4 @@
-<img src="/Npm.png"/>
+<img src="/npm.png"/>
  <hr></hr>
 <p align="center">
   <samp>
