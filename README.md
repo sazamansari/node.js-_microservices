@@ -23,6 +23,10 @@ User_Auth Microservices aims to provide an application architecture out of the b
 
 Any additional information goes here
 
+```bash
+npm i user-auth-microservice
+```
+
 
 ## Authors
 
