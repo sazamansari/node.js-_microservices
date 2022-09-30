@@ -1,4 +1,4 @@
-<img src="/userAuthMicroservices.png"/>
+<img src="/user.png"/>
  <hr></hr>
 <p align="center">
   <samp>
