@@ -1,6 +1,6 @@
 {
   "name": "user-auth-microservice",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "description": "User Authentication Microservice",
   "main": "server.js",
   "scripts": {
