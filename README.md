@@ -19,9 +19,9 @@ User_Auth Microservices aims to provide an application architecture out of the b
  
 
 
-## Appendix
+## INSTALL
 
-Any additional information goes here
+locally, usually for use as a module:
 
 ```bash
 npm i user-auth-microservice
