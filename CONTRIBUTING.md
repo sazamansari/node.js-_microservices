@@ -44,4 +44,4 @@ Links to read and get started with the project (for example, providing links to 
 
 
 Selection Criteria
-Mention if the students need to complete a small task or some writeup (i.e., prepare an application) based on which the mentors will select the students for the projects.
+only add and redesign Readme.md file
