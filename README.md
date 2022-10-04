@@ -136,12 +136,7 @@ h1 align="center"> <img src= "https://octodex.github.com/images/original.png" wi
 </div>
 <br>
 
-<p align="center">
-   <img alt="GitHub pull-requests" src="https://img.shields.io/github/issues-pr/dikshantrajput/hacktoberfest-2022-react">
-   <img alt="GitHub forks" src="https://img.shields.io/github/forks/dikshantrajput/hacktoberfest-2022-react">
-   <img alt="contributors" src="https://img.shields.io/github/contributors/dikshantrajput/hacktoberfest-2022-react">
-   <img alt="GitHub stars" src="https://img.shields.io/github/stars/dikshantrajput/hacktoberfest-2022-react">
-</p>
+
 
 # Upload Components to be used in future
 
