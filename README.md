@@ -126,7 +126,7 @@ To Run The Project
 
 Contributions are always welcome!
 
-h1 align="center"> <img src= "https://octodex.github.com/images/original.png" width= "40" /> HacktoberFest 2022 React<img src= "https://octodex.github.com/images/original.png" width= "40" /> </h1>
+h1 align="center"> <img src= "https://octodex.github.com/images/original.png" width= "40" /> HacktoberFest 2022 Node.js<img src= "https://octodex.github.com/images/original.png" width= "40" /> </h1>
 
 
 
@@ -181,7 +181,7 @@ If you liked working on this project, please share this project as much as you c
 * Fork the repo
 * Clone into local
 * Run npm install
-* Run npm start
+* Run npm run dev
 
 ### Issues to fix:
 * Fix all the buttons
