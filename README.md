@@ -152,19 +152,6 @@ Hacktoberfest is a program by Digital Ocean, DEV and Github, where you can easil
 
 ##### https://hacktoberfest.com/
 
-### 2. Add/Fix component
-
-Add or fix the component if you found any issue.
-
-### 3. Create Pull Request:
-
-Once you have completed these steps, you are ready to start contributing by clicking on Create Pull Request.
-
-### 4. Give this Project a Star:
-
-If you liked working on this project, please share this project as much as you can and star this project to help as many people in opensource as you can.
-
-
 ## Note:
 
 1. Don't Create Pull Request to update "readme.md" File.
