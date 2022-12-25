@@ -1,4 +1,4 @@
-<img src="/logo.png"/>
+<img src="https://github.com/sazamansari/node.js-_microservices/blob/main/logo/logo.png"/>
  <hr></hr>
 <p align="center">
   <samp>
