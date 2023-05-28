@@ -60,7 +60,7 @@ npm i user-auth-microservice
 | :-------- | :------- | :-------------------------------- |
 | `id`      | `string` | **Required**. Id of item to fetch |
 
-## Mongooose Connect 
+## Mongoose Connect 
 
 config/db.js 
 
