@@ -126,7 +126,7 @@ To Run The Project
 
 Contributions are always welcome!
 
-h1 align="center"> <img src= "https://octodex.github.com/images/original.png" width= "40" /> HacktoberFest 2022 Node.js<img src= "https://octodex.github.com/images/original.png" width= "40" /> </h1>
+<h1 align="center"> <img src= "https://octodex.github.com/images/original.png" width= "40" /> HacktoberFest 2022 Node.js<img src= "https://octodex.github.com/images/original.png" width= "40" /> </h1>
 
 
 
