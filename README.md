@@ -91,12 +91,9 @@ Please follow the cotribution guide in all your interactions with the project.
 <p align="center">
 <table>
         <tr>
-            <td align="center"><a href="https://github.com/github-username"><img alt=""
-                        src="link to the admin's github profile photo" width="100px;"><br><sub><b> Project Admin Name
+            <td align="center"><a href="https://github.com/sazamansari"><img alt="Md Shadab Azam Ansari"
+                        src="https://github.com/sazamansari/sazamansari/blob/main/shadab.png" width="100px;"><br><sub><b> Md Shadab Azam Ansari
                         </b></sub></a><br></td> </a></td>
-            <td align="center"><a href="https://github.com/github-username"><img alt=""
-                        src="link to the admin's github profile photo" width="100px;"><br><sub><b> Project Admin Name
-                        </b></sub></a><br></td></a></td>
 
 </table>
 
