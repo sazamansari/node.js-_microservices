@@ -101,17 +101,11 @@ Please follow the cotribution guide in all your interactions with the project.
 <p align="center">
 <table>
         <tr>
-            <td align="center"><a href="https://github.com/github-username"><img alt=""
-                        src="link to the mentor's github profile photo" width="100px;"><br><sub><b> Mentor Name
+            <td align="center"><a href="https://github.com/Rish-02"><img alt=""
+                        src="https://www.linkedin.com/in/rishita-jayant-b3a520239/overlay/photo/" width="100px;"><br><sub><b> Rishita Jayant
                         </b></sub></a><br></td> </a></td>
             <td align="center"><a href="https://github.com/github-username"><img alt=""
-                        src="link to the mentor's github profile photo" width="100px;"><br><sub><b> Mentor Name
-                        </b></sub></a><br></td></a></td>
-            <td align="center"><a href="https://github.com/github-username"><img alt=""
-                        src="link to the mentor's github profile photo" width="100px;"><br><sub><b> Mentor Name
-                        </b></sub></a><br></td></a></td>
-            <td align="center"><a href="https://github.com/github-username"><img alt=""
-                        src="link to the mentor's github profile photo" width="100px;"><br><sub><b> Mentor Name
+                        src="link to the mentor's github profile pho" width="100px;"><br><sub><b> Mentor Name
                         </b></sub></a><br></td></a></td>
 
 </table>
