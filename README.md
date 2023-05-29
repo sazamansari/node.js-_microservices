@@ -28,7 +28,7 @@ User_Auth Microservices aims to provide an application architecture out of the b
 
 </div>
 
-# Your Project Name
+# User-Auth-Microservice
 
 ### Description
 
@@ -92,7 +92,7 @@ Please follow the cotribution guide in all your interactions with the project.
 <table>
         <tr>
             <td align="center"><a href="https://github.com/sazamansari"><img alt="Md Shadab Azam Ansari"
-                        src="https://github.com/sazamansari/sazamansari/blob/main/shadab.png" width="100px;"><br><sub><b> Md Shadab Azam Ansari
+                        src="https://github.com/sazamansari/shadab1995.github.io/blob/main/images/profile.png" width="100px;"><br><sub><b> Md Shadab Azam Ansari
                         </b></sub></a><br></td> </a></td>
 
 </table>
