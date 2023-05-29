@@ -1,39 +1,15 @@
- <hr></hr>
-<p align="center">
-  <samp>
+
 # User-Auth-Microservice
 
-Express.js is a framework of Node.js  for building efficient, scalable Node.js server-side applications. It uses modern JavaScript, is built with JavaScript (preserves compatibility with pure JavaScript) and combines elements of OOP (Object Oriented Programming), FP (Functional Programming), and FRP (Functional Reactive Programming).
+### Description
+
+Express.js is a framework of Node.js for building efficient, scalable Node.js server-side applications. It uses modern JavaScript, is built with JavaScript (preserves compatibility with pure JavaScript) and combines elements of OOP (Object Oriented Programming), FP (Functional Programming), and FRP (Functional Reactive Programming).
 
 Under the hood, Node.js makes use of Express, but also, provides compatibility with a wide range of other libraries, like e.g. Mongoose, allowing for easy use of the myriad third-party plugins which are available.
 
 In recent years, thanks to Node.js, JavaScript has become the “lingua franca” of the web for both front and backend applications, giving rise to awesome projects like Angular, React and Vue which improve developer productivity and enable the construction of fast, testable, extensible frontend applications. However, on the server-side, while there are a lot of superb libraries, helpers and tools for Node, none of them effectively solve the main problem - the architecture.
 
 User_Auth Microservices aims to provide an application architecture out of the box which allows for effortless creation of highly testable, scalable, loosely coupled and easily maintainable applications. The architecture is heavily inspired by Node.js.
-
-## Acknowledgements
-
- - [Express.js](https://expressjs.com/)
- - [Node.js](https://nodejs.org/en/)
- 
-
-
-<div align="center">
-
-[![Issues](https://img.shields.io/github/issues/your-username/your-repo)](https://github.com/your-username/your-repo/issues)
-[![Pull Requests](https://img.shields.io/github/issues-pr/your-username/your-repo)](https://github.com/your-username/your-repo/pulls)
-[![Forks](https://img.shields.io/github/forks/your-username/your-repo)](https://github.com/your-username/your-repo/network/members)
-[![Stars](https://img.shields.io/github/stars/your-username/your-repo)](https://github.com/your-username/your-repo/stargazers)
-[![Repo Size](https://img.shields.io/github/repo-size/your-username/your-repo?color=yellow)](https://github.com/your-username/your-repo)
-
-</div>
-
-# User-Auth-Microservice
-
-### Description
-
-Write a brief description of your project. Make it quirky to provide contributors with more interactive experiences.
-
 ### This project is a part of the following Open Source Program
 
 <div align="center">
