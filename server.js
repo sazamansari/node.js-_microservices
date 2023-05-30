@@ -42,7 +42,7 @@ const PORT = process.env.SERVER_PORT || 3009;
 
 //Error handler 
 function errorHandler(err, req, res) {
-  
+
 // Log the error to the console
 console.log(err);
 
@@ -50,6 +50,7 @@ console.log(err);
 res.status(500).send("An error occurred");}
 
 app.use(errorHandler);
+
 
 app.listen(PORT, () => {
   console.log(`SERVER STARTED ON PORT ${PORT}`);
