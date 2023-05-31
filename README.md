@@ -78,7 +78,7 @@ Please follow the cotribution guide in all your interactions with the project.
 <table>
         <tr>
             <td align="center"><a href="https://github.com/Rish-02"><img alt=""
-                        src="https://drive.google.com/file/d/1qFZYKifbov5Hxfk455TpeqG6XUah92nQ/view?usp=sharing" width="100px;"><br><sub><b> Rishita Jayant
+                        src="https://github.com/rish-02/Rish-02.github.io/blob/main/images/profile.png" width="100px;"><br><sub><b> Rishita Jayant
                         </b></sub></a><br></td> </a></td>
             <td align="center"><a href="https://github.com/github-username"><img alt=""
                         src="link to the mentor's github profile pho" width="100px;"><br><sub><b> Mentor Name
