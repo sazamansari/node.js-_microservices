@@ -1,6 +1,19 @@
 
 # User-Auth-Microservice
-
+<div align="center">
+<img src="https://forthebadge.com/images/badges/built-with-love.svg" />
+<img src="https://forthebadge.com/images/badges/uses-brains.svg" />
+<img src="https://forthebadge.com/images/badges/powered-by-responsibility.svg" />
+  <br>
+<img src="https://img.shields.io/github/repo-size/sazamansari/node.js-_microservices" />
+  <img src="https://img.shields.io/github/issues/sazamansari/node.js-_microservices" />
+  <img src="https://img.shields.io/github/issues-closed-raw/sazamansari/node.js-_microservices" />
+  <img src="https://img.shields.io/github/issues-pr-closed-raw/sazamansari/node.js-_microservices" />
+  <img src="https://img.shields.io/github/issues-pr/sazamansari/node.js-_microservices" />
+  <img src="https://img.shields.io/github/forks/sazamansari/node.js-_microservices" />
+  <img src="https://img.shields.io/github/stars/sazamansari/node.js-_microservices" />
+  <img src="https://img.shields.io/github/contributors/sazamansari/node.js-_microservices" />
+</div>
 ### Description
 
 Express.js is a framework of Node.js for building efficient, scalable Node.js server-side applications. It uses modern JavaScript, is built with JavaScript (preserves compatibility with pure JavaScript) and combines elements of OOP (Object Oriented Programming), FP (Functional Programming), and FRP (Functional Reactive Programming).
