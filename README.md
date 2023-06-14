@@ -1,22 +1,23 @@
-<div id="top"></div>
+![node.js-_microservices](https://socialify.git.ci/sazamansari/node.js-_microservices/image?font=Rokkitt&forks=1&issues=1&language=1&name=1&owner=1&pattern=Charlie%20Brown&pulls=1&stargazers=1&theme=Auto)
+<!-- # User-Auth-Microservice (Node.js) -->
 
-# User-Auth-Microservice (Node.js)
 <div align="center">
 <img src="https://forthebadge.com/images/badges/built-with-love.svg" />
 <img src="https://forthebadge.com/images/badges/uses-brains.svg" />
 <img src="https://forthebadge.com/images/badges/powered-by-responsibility.svg" />
   <br>
 <img src="https://img.shields.io/github/repo-size/sazamansari/node.js-_microservices" />
-  <img src="https://img.shields.io/github/issues/sazamansari/node.js-_microservices" />
+  <!-- <img src="https://img.shields.io/github/issues/sazamansari/node.js-_microservices" /> -->
   <img src="https://img.shields.io/github/issues-closed-raw/sazamansari/node.js-_microservices" />
   <img src="https://img.shields.io/github/issues-pr-closed-raw/sazamansari/node.js-_microservices" />
-  <img src="https://img.shields.io/github/issues-pr/sazamansari/node.js-_microservices" />
-  <img src="https://img.shields.io/github/forks/sazamansari/node.js-_microservices" />
-  <img src="https://img.shields.io/github/stars/sazamansari/node.js-_microservices" />
+  <!-- <img src="https://img.shields.io/github/issues-pr/sazamansari/node.js-_microservices" /> -->
+  <!-- <img src="https://img.shields.io/github/forks/sazamansari/node.js-_microservices" /> -->
+  <!-- <img src="https://img.shields.io/github/stars/sazamansari/node.js-_microservices" /> -->
   <img src="https://img.shields.io/github/contributors/sazamansari/node.js-_microservices" />
 </div>
 
-### Description
+
+## Description
 
 Express.js is a framework of Node.js for building efficient, scalable Node.js server-side applications. It uses modern JavaScript, is built with JavaScript (preserves compatibility with pure JavaScript) and combines elements of OOP (Object Oriented Programming), FP (Functional Programming), and FRP (Functional Reactive Programming).
 
