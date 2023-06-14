@@ -276,3 +276,9 @@ export default routes;
 
 
 <p align="right">(<a href="#top">Back to top</a>)</p>
+
+## Contributors 🎇
+
+### Credits goes to these people:
+
+
