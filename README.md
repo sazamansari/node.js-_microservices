@@ -283,6 +283,6 @@ export default routes;
 <h2 align="center">Our Contributors 🌱</h2>
 <p align="center">
   <a href="https://github.com/sazamansari/node.js-_microservices/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=node.js-_microservices"/>
+  <img src="https://contrib.rocks/image?repo=sazamansari/node.js-_microservices"/>
 </a></p
 
