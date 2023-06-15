@@ -93,8 +93,8 @@ Please follow the cotribution guide in all your interactions with the project.
 <p align="center">
 <table>
         <tr>
-            <td align="center"><a href="https://github.com/Rish-02"><img alt=""
-                        src="https://github.com/rish-02/Rish-02.github.io/blob/main/images/profile.png" width="100px;"><br><sub><b> Rishita Jayant
+            <td align="center"><a href="https://github.com/Rish-02"><img alt="Rishita Jayant"
+                        src="https://rishitajayant.netlify.app/\assets\images/Profile\ Picture.jpeg" width="100px;"><br><sub><b> Rishita Jayant
                         </b></sub></a><br></td> </a></td>
             <td align="center"><a href="https://github.com/github-username"><img alt=""
                         src="link to the mentor's github profile pho" width="100px;"><br><sub><b> Mentor Name
