@@ -1,5 +1,1 @@
-export const HelperMethods = {
-
- 
-
-}
+export const HelperMethods = {};

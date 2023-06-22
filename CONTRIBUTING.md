@@ -8,13 +8,18 @@ Clone the repository: Clone the forked repository to your local machine using th
 
 bash
 Copy code
- # git clone https://github.com/sazamansari/node.js-_microservices
+
+# git clone https://github.com/sazamansari/node.js-_microservices
+
 Install dependencies: Move into the project's directory and install the required dependencies:
 
 bash
 Copy code
-# cd node.js-_microservices
- # npm install
+
+# cd node.js-\_microservices
+
+# npm install
+
 Configure the environment: Set up the necessary environment variables. Refer to the project's documentation or README for details on the required environment variables.
 
 Making Changes

@@ -1,4 +1,5 @@
 ![node.js-_microservices](https://socialify.git.ci/sazamansari/node.js-_microservices/image?font=Rokkitt&forks=1&issues=1&language=1&name=1&owner=1&pattern=Charlie%20Brown&pulls=1&stargazers=1&theme=Auto)
+
 <!-- # User-Auth-Microservice (Node.js) -->
 
 <div align="center">
@@ -16,7 +17,6 @@
   <img src="https://img.shields.io/github/contributors/sazamansari/node.js-_microservices" />
 </div>
 
-
 ## Description
 
 Express.js is a framework of Node.js for building efficient, scalable Node.js server-side applications. It uses modern JavaScript, is built with JavaScript (preserves compatibility with pure JavaScript) and combines elements of OOP (Object Oriented Programming), FP (Functional Programming), and FRP (Functional Reactive Programming).
@@ -26,6 +26,7 @@ Under the hood, Node.js makes use of Express, but also, provides compatibility w
 In recent years, thanks to Node.js, JavaScript has become the “lingua franca” of the web for both front and backend applications, giving rise to awesome projects like Angular, React and Vue which improve developer productivity and enable the construction of fast, testable, extensible frontend applications. However, on the server-side, while there are a lot of superb libraries, helpers and tools for Node, none of them effectively solve the main problem - the architecture.
 
 User_Auth Microservices aims to provide an application architecture out of the box which allows for effortless creation of highly testable, scalable, loosely coupled and easily maintainable applications. The architecture is heavily inspired by Node.js.
+
 ### This project is a part of the following Open Source Program
 
 <div align="center">
@@ -116,6 +117,7 @@ Include the license information for your project. For example, you can use the M
 
 This project is licensed under the terms of the [MIT License](LICENSE).
 Feel free to contribute to this repo.
+
 ## INSTALL
 
 locally, usually for use as a module:
@@ -124,16 +126,13 @@ locally, usually for use as a module:
 npm i user-auth-microservice
 ```
 
-
 ## Authors
 
 - [@Md Shadab Azam Ansari](https://md-shadab-azam-ansari.vercel.app/)
 
-
 ## License
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
-
 
 ## API Reference
 
@@ -157,11 +156,11 @@ npm i user-auth-microservice
 | :-------- | :------- | :-------------------------------- |
 | `id`      | `string` | **Required**. Id of item to fetch |
 
-## Mongoose Connect 
+## Mongoose Connect
 
-config/db.js 
+config/db.js
 
-```jsx
+````jsx
 import mongoose from "mongoose";
 
 const connectDB = async () => {
@@ -184,7 +183,7 @@ const connectDB = async () => {
       mongoose.set('debug', function(collectionName, method, query, doc, options) {
 
         console.log(collectionName + '.' + method, JSON.stringify(query), doc)
-    
+
         // log.info({
         //     dbQuery: set
         // });
@@ -216,14 +215,11 @@ To Run The Project
 
 ```bash
   npm run dev
-```
-
+````
 
 ## Contributing
 
 Contributions are always welcome!
-
-
 
 ## Note:
 
@@ -231,40 +227,41 @@ Contributions are always welcome!
 2. Maintain proper folder structure.
 3. In case you need to add an external package, install it by using npm. Don't push the complete package file here
 
-
 ### Steps to run the project
-* Fork the repo
-* Clone into local
-* Run npm install
-* Run npm run dev
+
+- Fork the repo
+- Clone into local
+- Run npm install
+- Run npm run dev
 
 ### Issues to fix:
-* Fix all the buttons
-* Improve box-shadow in light mode
-* Make dark mode as default
+
+- Fix all the buttons
+- Improve box-shadow in light mode
+- Make dark mode as default
 
 See `contributing.md` for ways to get started.
 
 Please adhere to this project's `code of conduct`.
 
-
 ## 🔗 Links
+
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://shadab-azam-ansari.vercel.app/)
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shadab1995/)
-
-
 
 ## Tech Stack
 
 **Server:** Node.js, Express.js Auth, JwToken
+
 ### Examples
+
 ```jsx
 import CONSTANTS from '../constants/index.js';
 
 import UserRoutes from '../modules/user/user.routes'
 
 const routes = (app)=>{
-   
+
 app.use(`${CONSTANTS.API_URI}/user`,UserRoutes);
 
 // console.log(app , "::dddddddddd")
@@ -274,15 +271,14 @@ export default routes;
 
 ```
 
-
 <p align="right">(<a href="#top">Back to top</a>)</p>
 
 ## Contributors 🎇
 
 ### Credits goes to these people:
+
 <h2 align="center">Our Contributors 🌱</h2>
 <p align="center">
   <a href="https://github.com/sazamansari/node.js-_microservices/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=sazamansari/node.js-_microservices"/>
 </a></p
-
