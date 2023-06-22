@@ -97,10 +97,7 @@ Please follow the cotribution guide in all your interactions with the project.
             <td align="center"><a href="#"><img alt="Rishita Jayant"
                         src="https://github.com/sazamansari/node.js-_microservices/blob/main/95698224.jpeg" width="100px;"><br><sub><b> Rishita Jayant
                         </b></sub></a><br></td> </a></td>
-            <td align="center"><a href="https://github.com/github-username"><img alt=""
-                        src="link to the mentor's github profile pho" width="100px;"><br><sub><b> Mentor Name
-                        </b></sub></a><br></td></a></td>
-
+          
 </table>
 
 <h1 align=center> Contributors </h1>
