@@ -94,7 +94,7 @@ Please follow the cotribution guide in all your interactions with the project.
 <p align="center">
 <table>
         <tr>
-            <td align="center"><a href="#"><img alt="Rishita Jayant"
+            <td align="center"><a href="https://github.com/Rish-02"><img alt="Rishita Jayant"
                         src="https://github.com/sazamansari/node.js-_microservices/blob/main/95698224.jpeg" width="100px;"><br><sub><b> Rishita Jayant
                         </b></sub></a><br></td> </a></td>
           
