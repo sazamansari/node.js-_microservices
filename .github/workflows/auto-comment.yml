@@ -1,0 +1,27 @@
+name: Auto Comment
+on: [issues, pull_request]
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: wow-actions/auto-comment@v1
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          issuesOpened: |
+            👋 @{{ author }}
+            Thank you for raising an issue. We will look into the matter and get back to you as soon as possible. Keep up the great work!
+
+          pullRequestOpened: |
+            👋 @{{ author }}
+            Thank you for raising your pull request.
+            Please make sure you have followed our [contributing guidelines](https://github.com/sazamansari/node.js-_microservices/blob/521d9e292c09d136c0ac339f9f50340c9031b7a9/CONTRIBUTING.md). We will review it as soon as possible.
+
+          issuesClosed: |
+            👋 @{{ author }}. This issue is closed.
+
+          pullRequestMerged: |
+            Great job, @${{ github.actor }}! 🎉 Thank you for submitting your pull request. Our dedicated team will review it diligently.Your contribution is valuable and we appreciate your efforts to improve our project.
+
+          issuesAssigned: |
+            👋 @{{ author }}
+            I have assigned the issue to you🙌 You can now start working on it.Should you have any queries or require guidance, do not hesitate to ask. 👍

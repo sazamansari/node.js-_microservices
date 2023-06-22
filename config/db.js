@@ -14,18 +14,18 @@ const connectDB = async () => {
         console.log("connection in error:::", error);
       });
 
-        console.log("mongo DB connected");
+    console.log("mongo DB connected");
 
+    mongoose.set(
+      "debug",
+      function (collectionName, method, query, doc, options) {
+        console.log(collectionName + "." + method, JSON.stringify(query), doc);
 
-      mongoose.set('debug', function(collectionName, method, query, doc, options) {
-
-        console.log(collectionName + '.' + method, JSON.stringify(query), doc)
-    
         // log.info({
         //     dbQuery: set
         // });
-    });
-
+      }
+    );
   } catch (e) {
     console.error(e, "error");
   } finally {

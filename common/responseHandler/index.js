@@ -4,11 +4,11 @@ export const RESPONSE = {
   },
 
   Created: (data, response) => {
-    return response.status(201).send({data , status:201});
+    return response.status(201).send({ data, status: 201 });
   },
 
   Unauthorized: (data, response) => {
-    return response.status(400).send({data , status:401});
+    return response.status(400).send({ data, status: 401 });
   },
   ServerError: (response) => {
     return response.status(500).send({ message: "Server error", status: 500 });
