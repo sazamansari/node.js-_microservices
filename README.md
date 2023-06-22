@@ -106,7 +106,6 @@ Thanks go to these **Wonderful People**: **Contributions** of any kind are welco
 
 > Mention the people who successfully contributed to your project as contributors.
 
-<h2 align="center">Our Contributors 🌱</h2>
 <p align="center">
   <a href="https://github.com/sazamansari/node.js-_microservices/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=sazamansari/node.js-_microservices"/>
