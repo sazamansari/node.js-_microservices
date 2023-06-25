@@ -1,6 +1,7 @@
-import moment from "moment";
+// import moment from "moment";
+const moment = require("moment");
 
-export const Valiadtors = {
+const Valiadtors = {
   isValidEmail: (email) => {
     var pattern = /(([a-zA-Z0-9\-?\.?]+)@(([a-zA-Z0-9\-_]+\.)+)([a-z]{2,3}))+$/;
     return new RegExp(pattern).test(email);
@@ -60,3 +61,5 @@ export const Valiadtors = {
     return /^(\d{4}|\d{6})$/.test(pin);
   },
 };
+
+module.exports = Valiadtors;

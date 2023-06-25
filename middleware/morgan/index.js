@@ -1,5 +1,8 @@
-import morgan from "morgan";
-import logger from "../../common/logger";
+// import morgan from "morgan";
+const morgan = require("morgan");
+
+// import logger from "../../common/logger";
+const logger = require("../../common/logger");
 
 logger.stream = {
   write: (message) =>

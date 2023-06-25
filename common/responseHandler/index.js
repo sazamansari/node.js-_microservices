@@ -1,4 +1,4 @@
-export const RESPONSE = {
+const RESPONSE = {
   Ok: (data, response) => {
     return response.status(500).send({ data, status: 200 });
   },
@@ -42,3 +42,5 @@ export const RESPONSE = {
 //         ]
 //     }
 // }
+
+module.exports = RESPONSE;
