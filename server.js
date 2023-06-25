@@ -1,18 +1,30 @@
-import express from "express";
-import dotenv from "dotenv";
-import cors from "cors";
-import compression from "compression";
+// import express from "express";
+const express = require("express");
 
-import httpLogger from "./middleware/morgan";
-import logger from "./common/logger";
-import connectDB from "./config/db";
-import routes from "./routes";
+// import dotenv from "dotenv";
+const dotenv = require("dotenv");
 
+// import cors from "cors";
+const cors = require("cors");
+
+// import compression from "compression";
+const compression = require("compression");
+
+// import httpLogger from "./middleware/morgan";
+const httpLogger = require("./middleware/morgan");
+
+// import logger from "./common/logger";
+const logger = require("./common/logger");
+
+// import connectDB from "./config/db";
+const connectDB = require("./config/db");
+
+// import routes from "./routes";
+const routes = require("./routes");
 const app = express();
+app.use("/", routes);
 
 app.use(httpLogger);
-
-app.use(compression({ filter: shouldCompress }));
 
 const shouldCompress = (req, res) => {
   if (req.headers["x-no-compression"]) {
@@ -24,6 +36,7 @@ const shouldCompress = (req, res) => {
   return compression.filter(req, res);
 };
 
+app.use(compression({ filter: shouldCompress }));
 dotenv.config();
 
 // Connect Database

@@ -1,11 +1,13 @@
-import CONSTANTS from "../constants/index.js";
+// import CONSTANTS from "../constants/index.js";
+const CONSTANTS = require("../constants/index.js");
 
-import UserRoutes from "../modules/user/user.routes";
+// import UserRoutes from "../modules/user/user.routes";
+// const UserRoutes = require("../modules/user/user.routes");
 
 const routes = (app) => {
-  app.use(`${CONSTANTS.API_URI}/user`, UserRoutes);
+  app.use(`${CONSTANTS.API_URI}/user`, CONSTANTS);
 
   // console.log(app , "::dddddddddd")
 };
-export default routes;
+module.exports = routes;
 // Define Routes
