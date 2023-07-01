@@ -19,13 +19,17 @@
 
 ## Description
 
-Express.js is a framework of Node.js for building efficient, scalable Node.js server-side applications. It uses modern JavaScript, is built with JavaScript (preserves compatibility with pure JavaScript) and combines elements of OOP (Object Oriented Programming), FP (Functional Programming), and FRP (Functional Reactive Programming).
+Express.js is indeed a popular framework for building efficient and scalable server-side applications using Node.js. It is designed to work with modern JavaScript and can be used with pure JavaScript as well. Express.js combines elements of Object-Oriented Programming (OOP), Functional Programming (FP), and Functional Reactive Programming (FRP) to provide a flexible and robust development environment.
 
-Under the hood, Node.js makes use of Express, but also, provides compatibility with a wide range of other libraries, like e.g. Mongoose, allowing for easy use of the myriad third-party plugins which are available.
+While Node.js itself provides compatibility with various libraries, Express.js stands out as a lightweight and flexible framework that simplifies the development of server-side applications. It allows developers to handle routing, middleware, and other server-related tasks with ease.
 
-In recent years, thanks to Node.js, JavaScript has become the “lingua franca” of the web for both front and backend applications, giving rise to awesome projects like Angular, React and Vue which improve developer productivity and enable the construction of fast, testable, extensible frontend applications. However, on the server-side, while there are a lot of superb libraries, helpers and tools for Node, none of them effectively solve the main problem - the architecture.
+In recent years, JavaScript has gained significant popularity as a language for both front-end and back-end development, thanks to frameworks like Angular, React, and Vue. However, on the server-side, finding a suitable architecture for Node.js applications has been a challenge.
 
-User_Auth Microservices aims to provide an application architecture out of the box which allows for effortless creation of highly testable, scalable, loosely coupled and easily maintainable applications. The architecture is heavily inspired by Node.js.
+User_Auth Microservices aims to address this problem by providing an out-of-the-box application architecture. This architecture focuses on creating highly testable, scalable, loosely coupled, and easily maintainable applications. It takes inspiration from the Node.js ecosystem and leverages the power of Express.js along with other libraries and tools to provide a robust solution.
+
+By using User_Auth Microservices, developers can benefit from a pre-defined architecture that promotes best practices and reduces the effort required to build complex server-side applications. This allows developers to focus more on application logic and functionality rather than spending time designing and implementing the underlying architecture.
+
+Overall, Express.js and User_Auth Microservices provide developers with powerful tools and frameworks to build efficient, scalable, and maintainable server-side applications using Node.js and JavaScript.
 
 ### This project is a part of the following Open Source Program
 
