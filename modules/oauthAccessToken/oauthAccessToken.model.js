@@ -22,5 +22,5 @@ const OauthAccessTokenSchema = new mongoose.Schema({
 
 export const OauthAccessToken = mongoose.model(
   "OauthAccessToken",
-  OauthAccessTokenSchema
+  OauthAccessTokenSchema,
 );

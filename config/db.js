@@ -25,7 +25,7 @@ const connectDB = async () => {
         // log.info({
         //     dbQuery: set
         // });
-      }
+      },
     );
   } catch (e) {
     console.error(e, "error");

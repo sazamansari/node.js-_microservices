@@ -11,5 +11,5 @@ logger.stream = {
 
 module.exports = morgan(
   ":method :url :status :response-time ms - :res[content-length]",
-  { stream: logger.stream }
+  { stream: logger.stream },
 );
