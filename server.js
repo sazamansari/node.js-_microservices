@@ -21,9 +21,17 @@ const connectDB = require("./config/db");
 
 // import routes from "./routes";
 const routes = require("./routes");
-const app = express();
-app.use("/", routes);
 
+const app = express();
+
+dotenv.config();
+
+// Connect Database
+connectDB();
+
+// Init Middleware
+app.use(express.json({ extended: true }));
+app.use(cors());
 app.use(httpLogger);
 
 const shouldCompress = (req, res) => {
@@ -37,24 +45,16 @@ const shouldCompress = (req, res) => {
 };
 
 app.use(compression({ filter: shouldCompress }));
-dotenv.config();
 
-// Connect Database
-connectDB();
-
-// Init Middleware
-app.use(express.json({ extended: true }));
-
-app.use(cors());
+// Define Routes
+routes(app);
 
 app.get("/", (req, res) => res.send("API RUNNING"));
 
-routes(app);
-
 const PORT = process.env.SERVER_PORT || 3009;
 
-//Error handler
-function errorHandler(err, req, res) {
+// Error handler
+function errorHandler(err, req, res, next) {
   // Log the error to the console
   console.log(err);
 

@@ -8,7 +8,9 @@ const CONSTANTS = {
     KEY_MUST_BE_ARRAY: "{{key}} must be an array",
     INTERNAL_SERVER_ERROR: "Please try after some time.",
     TOKEN_GENERATE_EXCEPTION: "Error while generating access token.",
+    EMAIL_ALREADY_EXISTS: "Email already exists.",
     INVALID_EMAIL: "Please fill valid email address.",
+    USER_NOT_FOUND: "User not found.",
     INVALID_PASSWORD:
       "Password needs to have at least one lower case, one uppercase, one number, one special character, and must be at least 8 characters but no more than 35.",
     VALIDATION_ERROR: "Validation error.",

@@ -1,13 +1,19 @@
-// import CONSTANTS from "../constants/index.js";
+const express = require("express");
 const CONSTANTS = require("../constants/index.js");
+const signup = require("../controllers/auth/user.signup.js");
+const signin = require("../controllers/auth/user.signin.js");
 
-// import UserRoutes from "../modules/user/user.routes";
-// const UserRoutes = require("../modules/user/user.routes");
+const userMiddleware = (req, res, next) => {
+  // Your middleware logic here
+  // ...
+  next();
+};
 
 const routes = (app) => {
-  app.use(`${CONSTANTS.API_URI}/user`, CONSTANTS);
+  app.use(`${CONSTANTS.API_URI}/user`, userMiddleware);
 
-  // console.log(app , "::dddddddddd")
+  app.post(`${CONSTANTS.API_URI}/user/signup`, signup);
+  app.post(`${CONSTANTS.API_URI}/user/signin`, signin);
 };
+
 module.exports = routes;
-// Define Routes
