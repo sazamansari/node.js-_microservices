@@ -1,7 +1,7 @@
-const bcrypt = require('bcrypt');
-const jwt = require('jsonwebtoken');
-const User = require('../../models/user.model');
-const {MESSAGES} = require("../../constants")
+const bcrypt = require("bcrypt");
+const jwt = require("jsonwebtoken");
+const User = require("../../models/user.model");
+const { MESSAGES } = require("../../constants");
 
 const signup = async (req, res) => {
   try {
@@ -22,4 +22,4 @@ const signup = async (req, res) => {
   }
 };
 
-module.exports = signup
+module.exports = signup;
