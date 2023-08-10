@@ -277,18 +277,25 @@ Please adhere to this project's `code of conduct`.
 ### Examples
 
 ```jsx
+// Import necessary modules and routes
 import CONSTANTS from '../constants/index.js';
+import UserRoutes from '../modules/user/user.routes';
 
-import UserRoutes from '../modules/user/user.routes'
+/**
+ * Configure routes for the Express.js app.
+ *
+ * @param {object} app - Express.js application instance
+ */
+const configureRoutes = (app) => {
+  // Mount the UserRoutes under the specified API URI
+  app.use(`${CONSTANTS.API_URI}/user`, UserRoutes);
 
-const routes = (app)=>{
+  // You can add more routes here as needed
+  // Example: app.use(`${CONSTANTS.API_URI}/posts`, PostsRoutes);
+};
 
-app.use(`${CONSTANTS.API_URI}/user`,UserRoutes);
-
-// console.log(app , "::dddddddddd")
-}
-export default routes;
-/>
+// Export the configureRoutes function for usage
+export default configureRoutes;
 
 ```
 
