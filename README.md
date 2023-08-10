@@ -75,12 +75,32 @@ Include instructions on how to get started with your project. This may include:
 
 We welcome contributions from everyone. Here are some guidelines to get started:
 
-1. Fork the repository and create your branch: `git checkout -b your-branch-name`
-2. Make your changes and commit them: `git commit -m 'Add some feature'`
-3. Push to your forked repository: `git push origin your-branch-name`
-4. Open a pull request to the main repository's branch
+Contributing Guidelines
+We're excited that you're interested in contributing to our project! Your contributions help make our project better for everyone. Here's a step-by-step guide to get you started:
 
-Please follow the cotribution guide in all your interactions with the project.
+1. Fork the Repository: Start by forking this repository to your own GitHub account using the "Fork" button.
+
+2. Create a Branch: Create a new branch for your changes. Name it something descriptive like "feature/add-new-feature" or "fix/issue-description".
+Please follow the contribution guide in all your interactions with the project.
+
+```bash
+git checkout -b your-branch-name
+```
+
+3. Make your Changes: Make the necessary changes and improvements to the codebase.
+
+4. Commit your Changes: Once you're satisfied with your changes, commit them with a meaningful message describing your updates.
+
+ ```bash
+git add .
+git commit -m 'Add a new feature: detailed explanation'
+ ```
+5. Push to your Fork: Push your changes to your forked repository on GitHub.
+
+  ```bash
+git push origin your-branch-name
+
+```
 
 <hr>
 
