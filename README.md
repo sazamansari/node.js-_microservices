@@ -81,7 +81,7 @@ We're excited that you're interested in contributing to our project! Your contri
 1. Fork the Repository: Start by forking this repository to your own GitHub account using the "Fork" button.
 
 2. Create a Branch: Create a new branch for your changes. Name it something descriptive like "feature/add-new-feature" or "fix/issue-description".
-Please follow the contribution guide in all your interactions with the project.
+   Please follow the contribution guide in all your interactions with the project.
 
 ```bash
 git checkout -b your-branch-name
@@ -91,13 +91,14 @@ git checkout -b your-branch-name
 
 4. Commit your Changes: Once you're satisfied with your changes, commit them with a meaningful message describing your updates.
 
- ```bash
+```bash
 git add .
 git commit -m 'Add a new feature: detailed explanation'
- ```
+```
+
 5. Push to your Fork: Push your changes to your forked repository on GitHub.
 
-  ```bash
+```bash
 git push origin your-branch-name
 
 ```
