@@ -30,8 +30,6 @@ If you witness or experience any behavior that violates this code of conduct, pr
 
 Violations of this code of conduct may lead to temporary or permanent restrictions on participation in the project repository. Project maintainers and administrators reserve the right to enforce this code of conduct and take appropriate action against misconduct or breaches of conduct.
 
-
-
 ## 8. Acknowledgment
 
 We value and appreciate everyone's contributions to our project repository. By following this code of conduct, we can create a supportive and inclusive environment where collaboration and growth thrive.
