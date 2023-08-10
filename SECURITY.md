@@ -14,8 +14,16 @@ currently being supported with security updates.
 
 ## Reporting a Vulnerability
 
-Use this section to tell people how to report a vulnerability.
+We take security vulnerabilities seriously. If you discover a security issue within our project, please follow these steps:
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+1. Report: Email us at security@example.com with a detailed description of the vulnerability.
+
+2. Expectation: You will receive an acknowledgment of your report within 24 hours.
+
+3. Update: Our team will work to validate and reproduce the vulnerability. We'll provide updates on the progress within 7 days.
+
+4. Fix: Once verified, we'll work on fixing the vulnerability.
+
+5. Disclosure: We will coordinate the disclosure of the vulnerability and release a fix as soon as possible.
+
+We appreciate your responsible disclosure and will keep you informed throughout the process. Thank you for helping us maintain the security of our project!
