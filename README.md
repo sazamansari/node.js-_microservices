@@ -278,8 +278,8 @@ Please adhere to this project's `code of conduct`.
 
 ```jsx
 // Import necessary modules and routes
-import CONSTANTS from '../constants/index.js';
-import UserRoutes from '../modules/user/user.routes';
+import CONSTANTS from "../constants/index.js";
+import UserRoutes from "../modules/user/user.routes";
 
 /**
  * Configure routes for the Express.js app.
@@ -296,7 +296,6 @@ const configureRoutes = (app) => {
 
 // Export the configureRoutes function for usage
 export default configureRoutes;
-
 ```
 
 <p align="right">(<a href="#top">Back to top</a>)</p>
