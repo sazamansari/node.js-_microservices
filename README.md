@@ -31,7 +31,6 @@ By using User_Auth Microservices, developers can benefit from a pre-defined arch
 
 Overall, Express.js and User_Auth Microservices provide developers with powerful tools and frameworks to build efficient, scalable, and maintainable server-side applications using Node.js and JavaScript.
 
-
 3. Make your Changes: Make the necessary changes and improvements to the codebase.
 
 4. Commit your Changes: Once you're satisfied with your changes, commit them with a meaningful message describing your updates.
