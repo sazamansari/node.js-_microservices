@@ -47,39 +47,7 @@ git push origin your-branch-name
 
 ```
 
-<hr>
 
-<h1 align=center> Project Admins </h1>
-<p align="center">
-<table>
-        <tr>
-            <td align="center"><a href="https://github.com/sazamansari"><img alt="Md Shadab Azam Ansari"
-                        src="https://github.com/sazamansari/shadab1995.github.io/blob/main/images/profile.png" width="100px;"><br><sub><b> Md Shadab Azam Ansari
-                        </b></sub></a><br></td> </a></td>
-
-</table>
-
-<h1 align=center> Project Mentors </h1>
-<p align="center">
-<table>
-        <tr>
-            <td align="center"><a href="https://github.com/Rish-02"><img alt="Rishita Jayant"
-                        src="https://github.com/sazamansari/node.js-_microservices/blob/main/95698224.jpeg" width="100px;"><br><sub><b> Rishita Jayant
-                        </b></sub></a><br></td> </a></td>
-          
-</table>
-
-<h1 align=center> Contributors </h1>
-
-Thanks go to these **Wonderful People**: **Contributions** of any kind are welcome!
-
-> Mention the people who successfully contributed to your project as contributors.
-
-<p align="center">
-  <a href="https://github.com/sazamansari/node.js-_microservices/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=sazamansari/node.js-_microservices"/>
-</a></
-<hr>
 
 ## License
 
