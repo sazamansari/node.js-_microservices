@@ -47,8 +47,6 @@ git push origin your-branch-name
 
 ```
 
-
-
 ## License
 
 Include the license information for your project. For example, you can use the MIT License:
