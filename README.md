@@ -31,61 +31,6 @@ By using User_Auth Microservices, developers can benefit from a pre-defined arch
 
 Overall, Express.js and User_Auth Microservices provide developers with powerful tools and frameworks to build efficient, scalable, and maintainable server-side applications using Node.js and JavaScript.
 
-### This project is a part of the following Open Source Program
-
-<div align="center">
-    <a href="https://gssoc.girlscript.tech/">
-        <img width="65%"
-            src="https://camo.githubusercontent.com/254612e762d0ee6a52de5d455d24b2be371f8c2f351c03d37d6c4b370b445b98/68747470733a2f2f692e706f7374696d672e63632f6b34306e747356342f31353030783530302e6a7067" />
-    </a>
-</div>
-
-## Table of Contents
-
-- [Demo](#demo)
-- [Technologies](#technologies)
-- [Getting Started](#getting-started)
-- [Contributing](#contributing)
-- [License](#license)
-
-<hr>
-
-## Demo
-
-Provide a link or embed a demo of your project (if applicable). You can also add screenshots or GIFs to showcase the
-functionality.
-
-<hr>
-
-## Technologies
-
-List the technologies and programming languages used in your project.
-
-<hr>
-
-## Getting Started
-
-Include instructions on how to get started with your project. This may include:
-
-1. Installation guide
-2. Dependencies or prerequisites
-3. How to run the project locally
-
-## Contributing
-
-We welcome contributions from everyone. Here are some guidelines to get started:
-
-Contributing Guidelines
-We're excited that you're interested in contributing to our project! Your contributions help make our project better for everyone. Here's a step-by-step guide to get you started:
-
-1. Fork the Repository: Start by forking this repository to your own GitHub account using the "Fork" button.
-
-2. Create a Branch: Create a new branch for your changes. Name it something descriptive like "feature/add-new-feature" or "fix/issue-description".
-   Please follow the contribution guide in all your interactions with the project.
-
-```bash
-git checkout -b your-branch-name
-```
 
 3. Make your Changes: Make the necessary changes and improvements to the codebase.
 
