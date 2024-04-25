@@ -1,4 +1,5 @@
-// import moment from "moment";
+import moment from "moment";
+
 const moment = require("moment");
 
 const Valiadtors = {
@@ -44,17 +45,11 @@ const Valiadtors = {
   },
 
   getWeekOfYear: (params) => {
-    params.currDate = Date.now();
-    var year = new Date(parseInt(params.currDate)).getFullYear();
-    var month = new Date(parseInt(params.currDate)).getMonth() + 1;
-    var date = new Date(parseInt(params.currDate)).getDate();
-    return moment(month + "-" + date + "-" + "-" + year, "MM-DD-YYYY").week();
+    return moment().week();
   },
 
   getMonthOfYear: (params) => {
-    params.currDate = Date.now();
-    var month = new Date(parseInt(params.currDate)).getMonth() + 1;
-    return month;
+    return moment().month() + 1;
   },
 
   validatePincode: (pin) => {
