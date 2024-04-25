@@ -1,7 +1,7 @@
-// import morgan from "morgan";
+import morgan from "morgan";
 const morgan = require("morgan");
 
-// import logger from "../../common/logger";
+import logger from "../../common/logger";
 const logger = require("../../common/logger");
 
 logger.stream = {
