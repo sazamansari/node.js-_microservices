@@ -1,7 +1,9 @@
-// import moment from "moment";
-const moment = require("moment");
+import moment from "moment";
 
-const Valiadtors = {
+const moment = require("moment");
+const mongoose = require("mongoose");
+
+const Validators = {
   isValidEmail: (email) => {
     var pattern = /(([a-zA-Z0-9\-?\.?]+)@(([a-zA-Z0-9\-_]+\.)+)([a-z]{2,3}))+$/;
     return new RegExp(pattern).test(email);
@@ -44,17 +46,11 @@ const Valiadtors = {
   },
 
   getWeekOfYear: (params) => {
-    params.currDate = Date.now();
-    var year = new Date(parseInt(params.currDate)).getFullYear();
-    var month = new Date(parseInt(params.currDate)).getMonth() + 1;
-    var date = new Date(parseInt(params.currDate)).getDate();
-    return moment(month + "-" + date + "-" + "-" + year, "MM-DD-YYYY").week();
+    return moment().week();
   },
 
   getMonthOfYear: (params) => {
-    params.currDate = Date.now();
-    var month = new Date(parseInt(params.currDate)).getMonth() + 1;
-    return month;
+    return moment().month() + 1;
   },
 
   validatePincode: (pin) => {
@@ -62,4 +58,4 @@ const Valiadtors = {
   },
 };
 
-module.exports = Valiadtors;
+module.exports = Validators;
